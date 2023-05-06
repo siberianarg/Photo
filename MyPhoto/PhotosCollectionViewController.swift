@@ -9,7 +9,6 @@ import UIKit
 
 class PhotosCollectionViewController: UICollectionViewController {
     
-    let myPhotos = [#imageLiteral(resourceName: "dog15"), #imageLiteral(resourceName: "dog7"), #imageLiteral(resourceName: "dog5"), #imageLiteral(resourceName: "dog10"), #imageLiteral(resourceName: "dog6"), #imageLiteral(resourceName: "dog11"), #imageLiteral(resourceName: "dog9"), #imageLiteral(resourceName: "dog1"), #imageLiteral(resourceName: "dog8"), #imageLiteral(resourceName: "dog12"), #imageLiteral(resourceName: "dog3"), #imageLiteral(resourceName: "dog2"), #imageLiteral(resourceName: "dog14"), #imageLiteral(resourceName: "dog4"), #imageLiteral(resourceName: "dog13")]
     let photos = ["dog1", "dog2", "dog3", "dog4", "dog5", "dog6", "dog7", "dog8", "dog9", "dog10", "dog11", "dog12", "dog13", "dog14", "dog15"]
     let itemsPerRow: CGFloat = 2
     let sectionInserts = UIEdgeInsets(top: 10, left: 2, bottom: 10, right: 2)
@@ -17,16 +16,6 @@ class PhotosCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-//
-//        layout.itemSize = CGSize(width: 70, height: 70)
-//        layout.sectionInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
-//        layout.minimumLineSpacing = 1
-//        layout.minimumInteritemSpacing = 1
-//        layout.scrollDirection = .vertical
-//
-//        collectionView.showsVerticalScrollIndicator = true
-//
     }
     
     // MARK: UICollectionViewDataSource
