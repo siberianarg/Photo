@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261284922A06987F004546D1 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261284912A06987F004546D1 /* PhotoViewController.swift */; };
 		2614447729FBED62001DE2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2614447629FBED62001DE2CE /* AppDelegate.swift */; };
 		2614447929FBED62001DE2CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2614447829FBED62001DE2CE /* SceneDelegate.swift */; };
 		2614447E29FBED62001DE2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2614447C29FBED62001DE2CE /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		261284912A06987F004546D1 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		2614447329FBED62001DE2CE /* MyPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2614447629FBED62001DE2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2614447829FBED62001DE2CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,9 +62,10 @@
 			children = (
 				2614447629FBED62001DE2CE /* AppDelegate.swift */,
 				2614447829FBED62001DE2CE /* SceneDelegate.swift */,
-				26893E5029FD95E90000F736 /* PhotosCollectionViewController.swift */,
-				2614447C29FBED62001DE2CE /* Main.storyboard */,
 				268DDF682A0620E1006010D0 /* PhotoCell.swift */,
+				26893E5029FD95E90000F736 /* PhotosCollectionViewController.swift */,
+				261284912A06987F004546D1 /* PhotoViewController.swift */,
+				2614447C29FBED62001DE2CE /* Main.storyboard */,
 				2614447F29FBED63001DE2CE /* Assets.xcassets */,
 				2614448129FBED63001DE2CE /* LaunchScreen.storyboard */,
 				2614448429FBED63001DE2CE /* Info.plist */,
@@ -145,6 +148,7 @@
 				26893E5129FD95E90000F736 /* PhotosCollectionViewController.swift in Sources */,
 				2614447729FBED62001DE2CE /* AppDelegate.swift in Sources */,
 				2614447929FBED62001DE2CE /* SceneDelegate.swift in Sources */,
+				261284922A06987F004546D1 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
